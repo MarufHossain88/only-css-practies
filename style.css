@@ -1,4 +1,123 @@
-.div-1 {
+.div-one {
     width: 200px;
     height: 200px;
+    background-color: forestgreen;
+    border-radius: 50%;
+    float: left;
+}
+
+.div-two {
+    width: 200px;
+    height: 100px;
+    background-color: tomato;
+    border-radius: 100% 100% 0  0;
+    float: left;
+    margin-left: 30px;
+}
+
+
+.div-three {
+    width: 200px;
+    height: 100px;
+    background-color: darkred;
+    border-radius:  0  0 100% 100%;
+    float: left;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+
+.div-four {
+    width: 100px;
+    height: 200px;
+    background-color: blue;
+    border-radius: 0 100% 100% 0;
+    float: left;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+
+.div-five {
+    width: 100px;
+    height: 200px;
+    background-color: brown;
+    border-radius:  100%  0 0% 100%;
+    float: left;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+.div-six {
+    width: 200px;
+    height: 150px;
+    background-color: black;
+    border-radius:  100%  0 0 0%;
+    float: left;
+    margin: 50px 0 0 50px;
+}
+
+.div-seven {
+    width: 200px;
+    height: 150px;
+    background-color: aqua;
+    border-radius:  0  100% 0% 0%;
+    float: left;
+    margin: 50px 0 0 50px;
+
+}
+
+.div-eight {
+    width: 200px;
+    height: 150px;
+    background-color: darkgoldenrod;
+    border-radius:  0  0 100% 0%;
+    float: left;
+    margin:0px 0 0 50px;
+}
+
+.div-nine {
+    width: 200px;
+    height: 150px;
+    background-color: crimson;
+    border-radius:  0  0 0% 100%;
+    float: left;
+    margin: 0px 0 0 50px;
+
+}
+
+
+
+
+
+
+
+
+
+
+.div-a-1 {
+    width: 10px;
+    height: 150px;
+    background-color: darkred;
+    float: left;
+    transform: rotate(35deg);
+    margin-left: 200px;
+    margin-top: 10px;
+}
+.div-a-2 {
+    width: 10px;
+    height: 150px;
+    background-color: darkred;
+    float: left;
+    transform: rotate(-35deg);
+    margin-left: 70px;
+    margin-top: 10px;
+}
+.div-a-3 {
+    width: 10px;
+    height: 150px;
+    background-color: darkred;
+    float: left;
+    transform: rotate(90deg);
+    margin: 30px 100px 0px 0;
 }
